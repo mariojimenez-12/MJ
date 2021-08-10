@@ -18,3 +18,8 @@ a{
   color: #fff;
   font-size: 2rem;
 }
+
+
+.navbar-nav {
+  align-items: flex-end;
+}
