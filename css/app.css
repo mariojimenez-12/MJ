@@ -22,8 +22,31 @@ a{
   color: #fff;
   font-size: 2rem;
 }
-
+.bi-whatsapp {
+  font-size: 2rem;
+  color: green;
+}
+.center {
+  display: grid;
+  place-items: center;
+}
 
 .navbar-nav {
   align-items: center;
+}
+
+.absolute {
+  position: fixed;
+  left: 80%;
+  top: 92%;
+  width: 3rem;
+  height: 3rem;
+  background: #fff;
+  border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+  .absolute{
+    left: 90%;
+  }
 }
