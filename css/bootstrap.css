@@ -7745,7 +7745,8 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #000000 !important;
+  transition: .4s;
 }
 
 .bg-secondary {
@@ -7800,7 +7801,8 @@ textarea.form-control-lg {
 
 .bg-transparent {
   --bs-bg-opacity: 1;
-  background-color: transparent !important;
+  background-color: transparent;
+  transition: .4s;
 }
 
 .bg-opacity-10 {
